@@ -211,12 +211,3 @@ body {
     visibility: visible;
     transition: 0.5s ease;
 }
-/* 
-@media screen and (max-width: 735px) {
-    .form-container {
-        flex-direction: column;
-        top: 0;
-        overflow: hidden;
-        padding: 30px;
-    }
-} */

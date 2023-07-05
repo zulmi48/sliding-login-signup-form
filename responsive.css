@@ -1,0 +1,33 @@
+@media (max-width: 735px) {
+    .form-container {
+        flex-direction: column;
+        top: 0;
+        overflow: hidden;
+        padding: 30px;
+    }
+    .form-box {
+        box-shadow: none;
+        padding: 0;
+    }
+    .imgBox {
+        box-shadow: none;
+        width: 100%;
+        height: auto;
+        padding: 35px 35px 15px;
+    }
+    .imgBox img {
+        max-width: 45%;
+        min-width: 180px;
+    }
+    .sign-up-form {
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 450px) {
+    .form-container {
+        font-size: 0.9rem;
+    }
+    .form-box {
+        width: 100%;
+    }
+}
